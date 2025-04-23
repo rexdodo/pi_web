@@ -52,7 +52,7 @@ function App() {
   return (
     <div style={{ maxWidth: '800px', margin: '0 auto', padding: '2rem' }}>
       <h1 style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
-        ALL INFORMATION OF FAMOUS PEOPLE IN EU
+        Information Of the Famouses In EU
       </h1>
       <div>
         {famousPeople.map((person, index) => (
