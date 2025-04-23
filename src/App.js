@@ -2,49 +2,49 @@ import React from 'react';
 
 const famousPeople = [
   {
-    name: 'Jonathan Doe',
-    phone: '+44 1234 567890',
-    address: '1234 Elm Street, 56789 Townsville, UK',
-    nationality: 'British',
+    name: 'Dirk Nowitzki',
+    phone: '+49 151 23456789',
+    address: 'Gretengasse 1, Gotha, German',
+    nationality: 'Germany',
+    gender: 'Male',
+    age: 46,
+    birthdate: '1978-06-15',
+  },
+  {
+    name: 'Luka Dončić',
+    phone: '+386 35 728 6645',
+    address: 'Poljedelska ulica 4, 1000 Ljubljana, Slovenia',
+    nationality: 'Slovenia',
+    gender: 'Male',
+    age: 26,
+    birthdate: '1999-12-11',
+  },
+  {
+    name: 'Giannis Antetokounmpo',
+    phone: '+30 694 127 8540',
+    address: 'Talesilis 2, Athina 116 35, Greece',
+    nationality: 'Greece',
+    gender: 'Male',
+    age: 30,
+    birthdate: '1994-08-24',
+  },
+  {
+    name: 'Pau Gasol',
+    phone: '+34 644 688 752',
+    address: 'C. Berlín, 9,28890 Loeches Madrid, Spain',
+    nationality: 'Spain',
     gender: 'Male',
     age: 45,
-    birthdate: '1979-06-15',
+    birthdate: '1980-04-19',
   },
   {
-    name: 'Marie Dubois',
-    phone: '+33 01 2345 6789',
-    address: '45 Rue de la Paix, 75002 Paris, France',
-    nationality: 'French',
-    gender: 'Female',
-    age: 39,
-    birthdate: '1985-12-11',
-  },
-  {
-    name: 'Luca Bianchi',
-    phone: '+39 06 1234 5678',
-    address: 'Via Roma 12, 00100 Roma, Italy',
-    nationality: 'Italian',
+    name: 'Tony Parker',
+    phone: '+33 6 28 74 96 88',
+    address: '11 Imp. du Fourchaud, 18000 Bourges, France',
+    nationality: 'France',
     gender: 'Male',
-    age: 52,
-    birthdate: '1972-08-24',
-  },
-  {
-    name: 'Anna Nowak',
-    phone: '+48 22 9876 5432',
-    address: 'ul. Krakowskie Przedmieście 3, 00-071 Warszawa, Poland',
-    nationality: 'Polish',
-    gender: 'Female',
-    age: 47,
-    birthdate: '1978-04-19',
-  },
-  {
-    name: 'Erik Svensson',
-    phone: '+46 08 765 4321',
-    address: 'Storgatan 5, 114 55 Stockholm, Sweden',
-    nationality: 'Swedish',
-    gender: 'Male',
-    age: 58,
-    birthdate: '1966-02-03',
+    age: 43,
+    birthdate: '1982-02-03',
   },
 ];
 
@@ -52,7 +52,7 @@ function App() {
   return (
     <div style={{ maxWidth: '800px', margin: '0 auto', padding: '2rem' }}>
       <h1 style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
-        Information Of the Famouses In EU
+        Celebrities In EU
       </h1>
       <div>
         {famousPeople.map((person, index) => (
