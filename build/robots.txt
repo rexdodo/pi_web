@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rexdodo.github.io/pi_web/
