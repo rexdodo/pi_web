@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/pi_web/static/js/main.af0126a3.js",
+    "index.html": "/pi_web/index.html",
+    "main.af0126a3.js.map": "/pi_web/static/js/main.af0126a3.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.af0126a3.js"
+  ]
+}
