@@ -1,5 +1,5 @@
 {
-  "homepage": "https://rexdodo.github.io/pi_web",
+  "homepage": "https://www.celebritiesineu.com",
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "react-snap": "^1.23.0"
@@ -10,8 +10,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "postbuild": "react-snap"
+    "deploy": "gh-pages -d build"
   },
   "reactSnap": {
     "source": "build",
