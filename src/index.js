@@ -9,9 +9,6 @@ import Home from './pages/Home';
 import PopularEDCs from './pages/PopularEDCs';
 import Shopping from './pages/Shopping';
 
-// 引入圆润字体，需在 public/index.html 中添加 Google Fonts 链接
-// 例如: <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
-
 // 创建 MUI 主题，设置全局圆润字体
 const theme = createTheme({
   typography: {
