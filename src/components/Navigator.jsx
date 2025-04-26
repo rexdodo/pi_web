@@ -6,7 +6,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import IconButton from '@mui/material/IconButton';
 import { useNavigate, useLocation } from 'react-router-dom';
-import logo from '../assets/icons/icon_edcworld.png'
+import logo from '../assets/icons/icon_edcworld.jpg'
 
 /**
  * Navigator component using MUI AppBar with three centered tabs
