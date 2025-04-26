@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.60c53632.js",
+    "main.js": "/static/js/main.06fae8ef.js",
     "static/media/edcimg7.JPG": "/static/media/edcimg7.b635212679c02a4d3eca.JPG",
-    "static/media/icon_edcworld.png": "/static/media/icon_edcworld.065f7008c9416a38f124.png",
+    "static/media/icon_edcworld.jpg": "/static/media/icon_edcworld.065f7008c9416a38f124.jpg",
     "static/media/edcimg6.JPG": "/static/media/edcimg6.5f8b7c2638027916ad98.JPG",
     "static/media/edcimg9.JPG": "/static/media/edcimg9.3676cd59f2e1a4f7b3fc.JPG",
     "static/media/edcimg5.JPG": "/static/media/edcimg5.83446f5a60ae148f18aa.JPG",
@@ -13,9 +13,9 @@
     "static/media/edcimg2.JPG": "/static/media/edcimg2.c4f0b01dedb7c77ad359.JPG",
     "static/media/edcimg1.JPG": "/static/media/edcimg1.b57cd5b551ad9c0addf0.JPG",
     "index.html": "/index.html",
-    "main.60c53632.js.map": "/static/js/main.60c53632.js.map"
+    "main.06fae8ef.js.map": "/static/js/main.06fae8ef.js.map"
   },
   "entrypoints": [
-    "static/js/main.60c53632.js"
+    "static/js/main.06fae8ef.js"
   ]
 }
