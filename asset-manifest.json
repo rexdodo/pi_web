@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "./static/js/main.d48cea20.js",
-    "static/media/edcimg7.JPG": "./static/media/edcimg7.b635212679c02a4d3eca.JPG",
-    "static/media/icon_edcworld.png": "./static/media/icon_edcworld.065f7008c9416a38f124.png",
-    "static/media/edcimg6.JPG": "./static/media/edcimg6.5f8b7c2638027916ad98.JPG",
-    "static/media/edcimg9.JPG": "./static/media/edcimg9.3676cd59f2e1a4f7b3fc.JPG",
-    "static/media/edcimg5.JPG": "./static/media/edcimg5.83446f5a60ae148f18aa.JPG",
-    "static/media/edcimgHomeintro2_extended.jpg": "./static/media/edcimgHomeintro2_extended.80f160b606029453bfad.jpg",
-    "static/media/edcimg3.JPG": "./static/media/edcimg3.ecbf677bc787d18df318.JPG",
-    "static/media/edcimg4.JPG": "./static/media/edcimg4.ddc40a1336e69186518c.JPG",
-    "static/media/edcimg8.JPG": "./static/media/edcimg8.571ec24e4e5d5204aa63.JPG",
-    "static/media/edcimg2.JPG": "./static/media/edcimg2.c4f0b01dedb7c77ad359.JPG",
-    "static/media/edcimg1.JPG": "./static/media/edcimg1.b57cd5b551ad9c0addf0.JPG",
-    "index.html": "./index.html",
-    "main.d48cea20.js.map": "./static/js/main.d48cea20.js.map"
+    "main.js": "/static/js/main.60c53632.js",
+    "static/media/edcimg7.JPG": "/static/media/edcimg7.b635212679c02a4d3eca.JPG",
+    "static/media/icon_edcworld.png": "/static/media/icon_edcworld.065f7008c9416a38f124.png",
+    "static/media/edcimg6.JPG": "/static/media/edcimg6.5f8b7c2638027916ad98.JPG",
+    "static/media/edcimg9.JPG": "/static/media/edcimg9.3676cd59f2e1a4f7b3fc.JPG",
+    "static/media/edcimg5.JPG": "/static/media/edcimg5.83446f5a60ae148f18aa.JPG",
+    "static/media/edcimgHomeintro2_extended.jpg": "/static/media/edcimgHomeintro2_extended.80f160b606029453bfad.jpg",
+    "static/media/edcimg3.JPG": "/static/media/edcimg3.ecbf677bc787d18df318.JPG",
+    "static/media/edcimg4.JPG": "/static/media/edcimg4.ddc40a1336e69186518c.JPG",
+    "static/media/edcimg8.JPG": "/static/media/edcimg8.571ec24e4e5d5204aa63.JPG",
+    "static/media/edcimg2.JPG": "/static/media/edcimg2.c4f0b01dedb7c77ad359.JPG",
+    "static/media/edcimg1.JPG": "/static/media/edcimg1.b57cd5b551ad9c0addf0.JPG",
+    "index.html": "/index.html",
+    "main.60c53632.js.map": "/static/js/main.60c53632.js.map"
   },
   "entrypoints": [
-    "static/js/main.d48cea20.js"
+    "static/js/main.60c53632.js"
   ]
 }
