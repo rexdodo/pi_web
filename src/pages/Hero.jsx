@@ -15,7 +15,7 @@ const Hero = () => (
     sx={{
       position: 'relative',
       width: '100%',
-      height: { xs: '300px', md: '1200px' },
+      height: '100vh',
       backgroundImage: `url(${heroImage})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
@@ -41,13 +41,14 @@ const Hero = () => (
       sx={{
         position: 'relative',
         zIndex: 1,
-        textAlign: 'center',
+        textAlign: 'left',
         color: '#fff',
         px: 2
       }}
     >
-      <Typography variant="h3" component="h1" sx={{ mb: 2 }}>
-        Relax and Enjoy your Fidget Toy - EDC
+      <Typography variant="h2" component="h1" sx={{ mb: 4 }}>
+        Welcome to
+        <br />Fidget World - EDC
       </Typography>
       <Typography variant="h6" sx={{ mb: 4 }}>
         EDC is a popular trend that emerged in China,

@@ -24,7 +24,15 @@ const Navigator = () => {
   };
 
   return (
-    <AppBar position="static" color='white' elevation={0}>
+    <AppBar
+      position="fixed"                    // ← 改成 fixed
+      color="white"
+      elevation={0}
+      sx={{
+        zIndex: (theme) => theme.zIndex.appBar + 1,  // 确保在所有内容之上
+        backgroundColor: '#fff',            // 保证真白背景
+      }}
+    >
       <Toolbar sx={{ display: 'flex', alignItems: 'center' }}>
         {/* 左侧图标位置 */}
         <IconButton
