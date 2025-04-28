@@ -7,6 +7,7 @@ import Tab from '@mui/material/Tab';
 import IconButton from '@mui/material/IconButton';
 import { useNavigate, useLocation } from 'react-router-dom';
 import logo from '../assets/icons/icon_edcworld.jpg'
+import { Box } from '@mui/material';
 
 /**
  * Navigator component using MUI AppBar with three centered tabs
@@ -25,7 +26,7 @@ const Navigator = () => {
 
   return (
     <AppBar
-      position="fixed"                    // ← 改成 fixed
+      position="fixed"
       color="white"
       elevation={0}
       sx={{
@@ -41,10 +42,16 @@ const Navigator = () => {
           aria-label="logo"
           sx={{ mr: 2 }}
         >
-          <img
+          <Box
+            component="img"
             src={logo}
             alt="logo"
-            style={{ width: 50, height: 50 }}
+            sx={{
+              // 响应式宽度：xs 设备上 32px，sm 上 40px，md+ 上 50px
+              width: { xs: 32, sm: 40, md: 50 },
+              // 高度自动按宽度等比例缩放
+              height: 'auto',
+            }}
           />
         </IconButton>
 
@@ -52,7 +59,7 @@ const Navigator = () => {
         <Tabs
           value={currentTab}
           onChange={handleChange}
-          centered
+          variant="fullWidth"
           sx={{
             flexGrow: 1,
             '& .MuiTabs-indicator': {
@@ -61,9 +68,26 @@ const Navigator = () => {
           }}
           textColor="inherit"
         >
-          <Tab label="Home" />
-          <Tab label="Popular EDCs" />
-          <Tab label="Shopping" />
+          <Tab 
+            label="Home" 
+            sx={{
+              fontSize: {xs: '0.75rem', sm: '0.875rem', md: '1rem'},
+              minWidth: {xs: 0, sm: 80, md: 100},
+              py: {xs: 0.5, sm:1}
+            }}
+          />
+          <Tab 
+            label="Popular EDCs" 
+            sx={{
+              fontSize: {xs: '0.75rem', sm: '0.875rem', md: '1rem'}
+            }}
+          />
+          <Tab 
+            label="Shopping" 
+            sx={{
+              fontSize: {xs: '0.75rem', sm: '0.875rem', md: '1rem'}
+            }}
+          />
         </Tabs>
       </Toolbar>
     </AppBar>
