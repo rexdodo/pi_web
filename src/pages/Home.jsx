@@ -1,24 +1,37 @@
 // src/pages/Home.jsx
 import React from 'react';
 import Box from '@mui/material/Box';
-import Gallery from './Gallery';
 import Hero from './Hero';
 import { Typography } from '@mui/material';
 
 const Home = () => (
-  <>
+  <Box
+    sx={{
+      backgroundColor: '#000',  // 黑底
+      color: '#fff',            // 白字
+      minHeight: '100vh',       // 起码铺满整个视口高度
+      width: '100%',            // 水平撑满
+      m: 0,                     // 清掉可能的 margin
+      p: 0,                     // 清掉可能的 padding
+    }}
+  >
     <Hero />
     <Box
       component="main"
       id="main"
       sx={{
-        margin: '0 auto',      // 水平居中
-        padding: 4,            // 使用 theme.spacing(4)
-        maxWidth: 1200,        // 最大宽度
-        width: '90%',          // 宽度占视口90%
-        display: 'flex',       // Flex 布局
+        // 直接去掉 margin/padding
+        m: 0,
+        p: 0,
+        // 如果你还想做 maxWidth 居中可以写：
+        maxWidth: 1200,
+        mx: 'auto',            // 左右 auto 居中
+        width: '100%',         // 撑满容器
+        display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center'
+        alignItems: 'center',
+        backgroundColor: 'transparent',  // 继承外层黑色
+        color: 'inherit',                // 继承外层白色
       }}
     >
       <Box sx={{ mb: 3, textAlign: 'center' }}>
@@ -40,7 +53,7 @@ const Home = () => (
         <Box component="h1" sx={{ fontSize: '3.5rem', mb: 2, textAlign: 'left' }}>
           Evolution of EDC
         </Box>
-        <Typography sx={{ fontSize: '2rem', textAlign: 'left' ,lineHeight: 1.5}}>
+        <Typography sx={{ fontSize: '2rem', textAlign: 'left', lineHeight: 1.5 }}>
           <strong>Back in the day, there were basically two types of people into EDC:</strong>
           <br />the hardcore professionals, and the wild-at-heart outdoor survivalists.
           <br />But once humanity entered an era of peace (thank goodness), EDC evolved.
@@ -52,16 +65,15 @@ const Home = () => (
           <br />They hold your memories.
           And as you fine-tune and upgrade your EDC gear over time, you’re really recording your journey and growth as a person.
 
-          <br />Of course, there’s no "one-size-fits-all" checklist for EDC — after all,<strong> your EDC should be made just for you.</strong> 
+          <br />Of course, there’s no "one-size-fits-all" checklist for EDC — after all,<strong> your EDC should be made just for you.</strong>
           <br />But that said, there are certain categories of gear that almost every EDC enthusiast gravitates toward.
           <br />And when choosing your pieces, the golden rule stays true to EDC’s original spirit:
           <strong> carry what you truly need for life and work.</strong>
         </Typography>
       </Box>
     </Box>
-  </>
+  </Box >
 
 );
 
 export default Home;
-

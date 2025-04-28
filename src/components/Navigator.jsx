@@ -31,7 +31,8 @@ const Navigator = () => {
       elevation={0}
       sx={{
         zIndex: (theme) => theme.zIndex.appBar + 1,  // 确保在所有内容之上
-        backgroundColor: '#fff',            // 保证真白背景
+        backgroundColor: '#000',            // 保证真白背景
+        color: 'white'
       }}
     >
       <Toolbar sx={{ display: 'flex', alignItems: 'center' }}>

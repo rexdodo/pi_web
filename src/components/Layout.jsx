@@ -11,7 +11,7 @@ const Layout = () => (
     {/* 这个 Toolbar 只是用来占位，推开下面的内容 */}
     <Toolbar />
 
-    <main style={{ padding: 16 }}>
+    <main style={{ padding: 0 }}>
       <Outlet />
     </main>
   </>
