@@ -8,14 +8,14 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 // import Chip from '@mui/material/Chip';
 import Grid from '@mui/material/Grid';
-import IconButton from '@mui/material/IconButton';
+// import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import FormControl from '@mui/material/FormControl';
 import InputAdornment from '@mui/material/InputAdornment';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import { styled } from '@mui/material/styles';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
-import RssFeedRoundedIcon from '@mui/icons-material/RssFeedRounded';
+// import RssFeedRoundedIcon from '@mui/icons-material/RssFeedRounded';
 
 import motdragon from '../blogImages/blogimg1.png'
 import yedcPigCoin from '../blogImages/blogimg2.png'
@@ -217,7 +217,7 @@ export default function MainContent() {
         </Typography>
         <Typography>Stay in the loop with the latest about the most popular EDCs</Typography>
       </div>
-      <Box
+      {/* <Box
         sx={{
           display: { xs: 'flex', sm: 'none' },
           flexDirection: 'row',
@@ -230,7 +230,7 @@ export default function MainContent() {
         <IconButton size="small" aria-label="RSS feed">
           <RssFeedRoundedIcon />
         </IconButton>
-      </Box>
+      </Box> */}
       <Box
         sx={{
           display: 'flex',
