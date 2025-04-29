@@ -5,6 +5,8 @@ import BuildIcon from '@mui/icons-material/Build';
 
 const Shopping = () => (
   <Container
+    maxWidth={false}
+    disableGutters
     sx={{
       backgroundColor: '#000',   // 黑底
       color: '#fff',             // 白字
