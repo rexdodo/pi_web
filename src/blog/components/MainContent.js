@@ -30,10 +30,10 @@ const cardData = [
     tag: 'Fidget Slider',
     title: 'MOT Titanium Dragon Groove Fidget Slider',
     description:
-      'Our latest engineering tools are designed to streamline workflows and boost productivity. Discover how these innovations are transforming the software development landscape.',
+      'With its futuristic design and precise engineering, the Sky Breaker offers a dynamic sliding action that is both satisfying and addictive.',
     authors: [
-      { name: 'Remy Sharp', avatar: '/static/images/avatar/1.jpg' },
-      { name: 'Travis Howard', avatar: '/static/images/avatar/2.jpg' },
+      { name: 'Stainless Steel ', avatar: '/static/images/avatar/1.jpg' },
+      { name: 'Titanium', avatar: '/static/images/avatar/2.jpg' },
     ],
   },
   {
@@ -41,34 +41,39 @@ const cardData = [
     tag: 'Pig Coin',
     title: 'YEDC Pig Coin Haptic Coin',
     description:
-      'Explore the key features of our latest product release that are helping businesses achieve their goals. From user-friendly interfaces to robust functionality, learn why our product stands out.',
-    authors: [{ name: 'Erica Johns', avatar: '/static/images/avatar/6.jpg' }],
+      'A collaborative creation by 01EDC and YEDC, this mechanical slider features charming chicken and pig designs. Crafted from premium materials, it offers a satisfying tactile experience, making it both a functional tool and a collectible item.',
+    authors: [{ name: 'Stainless Steel / Zirconium (Shell)', avatar: '/static/images/avatar/6.jpg' }],
   },
   {
     img: breaker,
     tag: 'Howitzer',
     title: 'Wanwu BREAKER Howitzer',
     description:
-      'Stay ahead of the curve with the latest design trends and insights. Our design team shares their expertise on creating intuitive and visually stunning user experiences.',
-    authors: [{ name: 'Kate Morrison', avatar: '/static/images/avatar/7.jpg' }],
+      'Inspired by military aesthetics, the Wanwu BREAKER Howitzer is a limited-edition fidget slider that combines intricate design with functional artistry. Its robust construction offers a satisfying tactile experience for enthusiasts and collectors alike.',
+    authors: [{ name: 'Titanium + Brass', avatar: '/static/images/avatar/7.jpg' }],
   },
   {
     img: masterSword,
     tag: 'Fidget Slider',
     title: "ACEdc MASTER SWORD Fidget Slider",
     description:
-      "Take a look at our company's journey and the milestones we've achieved along the way. From humble beginnings to industry leader, discover our story of growth and success.",
-    authors: [{ name: 'Cindy Baker', avatar: '/static/images/avatar/3.jpg' }],
+      "Inspired by the iconic Master Sword, this fidget slider combines a sleek, sword-like design with a satisfying mechanical bounce. Crafted with precision, it offers a tactile experience reminiscent of unsheathing a legendary blade.",
+    authors: [
+      { name: 'Titanium', avatar: '/static/images/avatar/3.jpg' },
+      { name: 'Zirconium', avatar: '/static/images/avatar/3.jpg' },
+      { name: 'Stainless Steel (Gold Plate or Blasted)', avatar: '/static/images/avatar/3.jpg' },
+      { name: 'Zircuti', avatar: '/static/images/avatar/3.jpg' }
+    ],
   },
   {
     img: ringSpinner,
     tag: 'Ring Spinner',
     title: 'Lautie MECHANIC-THORNS Ratchet Ring Spinner',
     description:
-      "Learn about our commitment to sustainability and the innovative engineering solutions we're implementing to create a greener future. Discover the impact of our eco-friendly initiatives.",
+      "The Lautie MECHANIC-THORNS Ratchet Ring Spinner is a meticulously crafted fidget ring that combines mechanical precision with aesthetic appeal. Its unique ratchet mechanism delivers a satisfying tactile feedback, making it both a functional tool and a statement piece for everyday carry enthusiasts.",
     authors: [
-      { name: 'Agnes Walker', avatar: '/static/images/avatar/4.jpg' },
-      { name: 'Trevor Henderson', avatar: '/static/images/avatar/5.jpg' },
+      { name: 'Cupronickel, Copper', avatar: '/static/images/avatar/4.jpg' },
+      { name: 'Zirconium, Brass, and Zircuti', avatar: '/static/images/avatar/5.jpg' },
     ],
   },
   {
@@ -76,8 +81,8 @@ const cardData = [
     tag: 'Ring Spinner',
     title: 'Lautie MECHANIC-A Ratchet Ring Spinner',
     description:
-      'Our recent product updates are designed to help you maximize efficiency and achieve more. Get a detailed overview of the new features and improvements that can elevate your workflow.',
-    authors: [{ name: 'Travis Howard', avatar: '/static/images/avatar/2.jpg' }],
+      'The Lautie MECHANIC-C Spy Wars Series Ring Spinner combines sleek design with smooth spinning action. Its compact form factor and durable build make it an ideal companion for stress relief and focus enhancement.',
+    authors: [{ name: 'Aluminum, Stainless Steel, Copper, Zirconium, and Ultem (PEI)', avatar: '/static/images/avatar/2.jpg' }],
   },
 ];
 
