@@ -1,4 +1,3 @@
-// src/pages/Home.jsx
 import React from 'react';
 import Box from '@mui/material/Box';
 import Hero from './Hero';
@@ -23,7 +22,6 @@ const Home = () => (
       component="main"
       id="main"
       sx={{
-        // 响应式内边距：xs→2, sm→4, md→6（乘以 theme.spacing）
         px: { xs: 2, sm: 4, md: 6 },
         py: { xs: 3, sm: 5, md: 8 },
         maxWidth: 1200,
@@ -49,7 +47,6 @@ const Home = () => (
           Origin of EDC
         </Typography>
 
-        {/* 段落 */}
         <Typography
           sx={{
             fontSize: { xs: '1rem', sm: '1.25rem', md: '1.5rem' },
@@ -68,6 +65,16 @@ const Home = () => (
           <br />Back then, some Americans, convinced that World War III was just around the corner, started prepping like there was no tomorrow.
           <br />These "survivalists" believed they could survive doomsday with nothing but their own skills and whatever gear they could carry.
           <br />And thus, the spirit of EDC — Every. Day. Carry. — was born.
+        </Typography>
+        <Typography
+          sx={{
+            fontSize: { xs: '0.875rem', sm: '1rem', md: '1.125rem' },
+            lineHeight: 1.6,
+            mt: { xs: 2, sm: 3 },
+            color: 'inherit',
+          }}
+        >
+          For a comprehensive overview of EDC, see <a href="https://en.wikipedia.org/wiki/Everyday_carry" target="_blank" rel="noopener noreferrer">Everyday Carry (Wikipedia)</a>.
         </Typography>
       </Box>
 
@@ -107,6 +114,16 @@ const Home = () => (
           <br />But that said, there are certain categories of gear that almost every EDC enthusiast gravitates toward.
           <br />And when choosing your pieces, the golden rule stays true to EDC’s original spirit:
           <strong> carry what you truly need for life and work.</strong>
+        </Typography>
+        <Typography
+          sx={{
+            fontSize: { xs: '0.875rem', sm: '1rem', md: '1.125rem' },
+            lineHeight: 1.6,
+            mt: { xs: 2, sm: 3 },
+            color: 'inherit',
+          }}
+        >
+          Read more on the cultural evolution of EDC at <a href="https://meta-edc.com/collections/fidget-toy" target="_blank" rel="noopener noreferrer">MetaEDC</a> and  <a href="https://geeone.com/?srsltid=AfmBOor3bZDD9j1W2NUhaZwytwM9kyCt35eiYqEEvIWFx3nvLAvAIluk" target="_blank" rel="noopener noreferrer">GEEONE</a>.
         </Typography>
       </Box>
     </Box>
