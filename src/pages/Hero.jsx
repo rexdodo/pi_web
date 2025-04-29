@@ -3,12 +3,9 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import heroImage from '../assets/images/edcimgHomeintro2_extended.jpg'; // 替换为你的横铺背景图路径
+import heroImage from '../assets/images/edcimgHomeintro2_extended.jpg';
 import { grey } from '@mui/material/colors';
 
-/**
- * Hero 组件：全屏横铺背景图，文字与按钮覆盖
- */
 const Hero = () => (
   <Box
     component="section"
@@ -21,65 +18,86 @@ const Hero = () => (
       backgroundPosition: 'center',
       display: 'flex',
       alignItems: 'center',
-      justifyContent: 'center'
+      justifyContent: 'center',
     }}
   >
-    {/* 半透明遮罩层 */}
+    {/* 半透明遮罩 */}
     <Box
       sx={{
         position: 'absolute',
-        top: 0,
-        left: 0,
-        width: '100%',
-        height: '100%',
-        backgroundColor: 'rgba(0, 0, 0, 0.4)'
+        inset: 0,
+        backgroundColor: 'rgba(0, 0, 0, 0.4)',
       }}
     />
 
-    {/* 文本内容 */}
+    {/* 文本 & 按钮容器 */}
     <Box
       sx={{
         position: 'relative',
         zIndex: 1,
         textAlign: 'left',
         color: '#fff',
-        px: 2
+        // 响应式内边距，xs→2, sm→4, md→6 乘以 theme.spacing
+        px: { xs: 2, sm: 4, md: 6 },
+        py: { xs: 2, sm: 3, md: 4 },
+        // 限制最大宽度方便阅读
+        maxWidth: { xs: '90%', sm: '80%', md: '60%' },
+        width: '100%',
       }}
     >
-      <Typography variant="h2" component="h1" sx={{ mb: 4 }}>
+      <Typography
+        component="h1"
+        variant="h2"
+        sx={{
+          mb: { xs: 2, sm: 3, md: 4 },
+          // 响应式字体大小
+          fontSize: { xs: '2rem', sm: '3rem', md: '4rem' },
+          lineHeight: 1.2,
+        }}
+      >
         Welcome to
-        <br />Fidget World - EDC
+        <br />
+        Fidget World - EDC
       </Typography>
-      <Typography variant="h6" sx={{ mb: 4 }}>
-        EDC is a popular trend that emerged in China,
-        <br />also known as "Every Day Carry" culture,
-        <br />However, as this culture developed, it gained a more distinct focus in China...
 
+      <Typography
+        variant="h6"
+        sx={{
+          mb: { xs: 2, sm: 3, md: 4 },
+          fontSize: { xs: '1rem', sm: '1.25rem', md: '1.5rem' },
+          lineHeight: 1.5,
+        }}
+      >
+        EDC is a popular trend that emerged in China,
+        <br />
+        also known as "Every Day Carry" culture,
+        <br />
+        however, as this culture developed, it gained a more distinct focus in China...
       </Typography>
+
       <Button
         variant="contained"
         size="large"
         sx={{
-          // 初始背景
           backgroundColor: grey[700],
           color: '#fff',
-          // 可选：微微内凹的阴影，增强质感
           boxShadow: '0 3px 5px rgba(0,0,0,0.2)',
-          // 圆角
           borderRadius: 1,
-          // 鼠标悬停效果
+          // 响应式按钮内边距和字体
+          py: { xs: 1, sm: 1.25, md: 1.5 },
+          px: { xs: 2, sm: 3, md: 4 },
+          fontSize: { xs: '0.875rem', sm: '1rem', md: '1.125rem' },
           '&:hover': {
             backgroundColor: grey[900],
             backgroundImage: 'linear-gradient(135deg, #555 0%, #333 100%)',
             boxShadow: '0 5px 10px rgba(0,0,0,0.3)',
           },
-          // 点击时的按压效果
           '&:active': {
             boxShadow: 'inset 0 3px 5px rgba(0,0,0,0.3)',
-          }
+          },
         }}
-        onClick={()=>{
-          document.getElementById('main').scrollIntoView({behavior: 'smooth'})
+        onClick={() => {
+          document.getElementById('main').scrollIntoView({ behavior: 'smooth' });
         }}
       >
         Learn More About EDC

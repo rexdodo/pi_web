@@ -11,83 +11,83 @@ import NavigateNextRoundedIcon from '@mui/icons-material/NavigateNextRounded';
 
 const articleInfo = [
   {
-    tag: 'Engineering',
-    title: 'The future of AI in software engineering',
+    tag: 'Slide',
+    title: '01EDC x YEDC Chicken & Pig Mechanical Slider',
     description:
-      'Artificial intelligence is revolutionizing software engineering. Explore how AI-driven tools are enhancing development processes and improving software quality.',
+      'A collaborative creation by 01EDC and YEDC, this mechanical slider features charming chicken and pig designs. Crafted from premium materials, it offers a satisfying tactile experience, making it both a functional tool and a collectible item.',
     authors: [
-      { name: 'Remy Sharp', avatar: '/static/images/avatar/1.jpg' },
-      { name: 'Travis Howard', avatar: '/static/images/avatar/2.jpg' },
+      { name: 'Stainless Steel / Zirconium (Shell)', avatar: '/static/images/avatar/1.jpg' },
+      { name: 'Stainless Steel (Liner)', avatar: '/static/images/avatar/2.jpg' },
     ],
   },
   {
-    tag: 'Product',
-    title: 'Driving growth with user-centric product design',
+    tag: 'Slide',
+    title: 'PdEDC X-Feel Fidget Slider',
     description:
-      'Our user-centric product design approach is driving significant growth. Learn about the strategies we employ to create products that resonate with users.',
-    authors: [{ name: 'Erica Johns', avatar: '/static/images/avatar/6.jpg' }],
+      'The X-Feel Fidget Slider by PdEDC combines a sleek design with a smooth sliding mechanism. Its compact form factor and durable build make it an ideal companion for stress relief and focus enhancement.',
+    authors: [{ name: 'Aluminium + Brass', avatar: '/static/images/avatar/6.jpg' }],
   },
   {
-    tag: 'Design',
-    title: 'Embracing minimalism in modern design',
+    tag: 'Slide',
+    title: 'Muyi MUSKETEER Fidget Slider',
     description:
-      'Minimalism is a key trend in modern design. Discover how our design team incorporates minimalist principles to create clean and impactful user experiences.',
-    authors: [{ name: 'Kate Morrison', avatar: '/static/images/avatar/7.jpg' }],
+      'Inspired by the valor of musketeers, this fidget slider from Muyi boasts a robust construction and intricate detailing. Its mechanical structure delivers a crisp, satisfying click, perfect for enthusiasts seeking both form and function.',
+    authors: [{ name: 'Titanium + Stainless Steel / Zirconium + Brass', avatar: '/static/images/avatar/7.jpg' }],
   },
   {
-    tag: 'Company',
-    title: 'Cultivating a culture of innovation',
+    tag: 'Slide',
+    title: 'Wanwu Reactive Armor Shield Fidget Slider',
     description:
-      'Innovation is at the heart of our company culture. Learn about the initiatives we have in place to foster creativity and drive groundbreaking solutions.',
-    authors: [{ name: 'Cindy Baker', avatar: '/static/images/avatar/3.jpg' }],
+      'Inspired by futuristic armor designs, this compact fidget slider offers a satisfying tactile experience with its stone-tumbled finish and magnetic mechanism.',
+    authors: [{ name: 'Stainless Steel / Zirconium / PEI / G10', avatar: '/static/images/avatar/3.jpg' }],
   },
   {
-    tag: 'Engineering',
-    title: 'Advancing cybersecurity with next-gen solutions',
+    tag: 'Slide',
+    title: 'Wanwu Bulletproof Mini Shield Fidget Slider',
     description:
-      'Our next-generation cybersecurity solutions are setting new standards in the industry. Discover how we protect our clients from evolving cyber threats.',
+      'A sleek and durable mini slider that combines robust materials with a minimalist design, perfect for on-the-go stress relief.',
     authors: [
-      { name: 'Agnes Walker', avatar: '/static/images/avatar/4.jpg' },
-      { name: 'Trevor Henderson', avatar: '/static/images/avatar/5.jpg' },
+      { name: 'Stainless Steel', avatar: '/static/images/avatar/4.jpg' },
+      { name: 'PEI', avatar: '/static/images/avatar/5.jpg' },
     ],
   },
   {
-    tag: 'Product',
-    title: 'Enhancing customer experience through innovation',
+    tag: 'Slide',
+    title: 'MLD Magnetic Swivel EDC Fidget Slider',
     description:
-      'Our innovative approaches are enhancing customer experience. Learn about the new features and improvements that are delighting our users.',
-    authors: [{ name: 'Travis Howard', avatar: '/static/images/avatar/2.jpg' }],
+      'This stainless steel slider features a unique swivel mechanism, providing a smooth and engaging fidgeting experience.',
+    authors: [{ name: 'Stainless Steel', avatar: '/static/images/avatar/2.jpg' }],
   },
   {
-    tag: 'Engineering',
-    title: 'Pioneering sustainable engineering solutions',
+    tag: 'Slide',
+    title: 'MOT EDC Sky Breaker Fidget Slider',
     description:
-      "Learn about our commitment to sustainability and the innovative engineering solutions we're implementing to create a greener future. Discover the impact of our eco-friendly initiatives.",
+      "With its futuristic design and precise engineering, the Sky Breaker offers a dynamic sliding action that's both satisfying and addictive.",
     authors: [
-      { name: 'Agnes Walker', avatar: '/static/images/avatar/4.jpg' },
-      { name: 'Trevor Henderson', avatar: '/static/images/avatar/5.jpg' },
+      { name: 'Stainless Steel', avatar: '/static/images/avatar/4.jpg' },
+      { name: 'Titanium', avatar: '/static/images/avatar/5.jpg' },
     ],
   },
   {
-    tag: 'Product',
-    title: 'Maximizing efficiency with our latest product updates',
+    tag: 'Slide',
+    title: 'Fashion Toy Studio LASER Double Push Fidget Slider',
     description:
-      'Our recent product updates are designed to help you maximize efficiency and achieve more. Get a detailed overview of the new features and improvements that can elevate your workflow.',
-    authors: [{ name: 'Travis Howard', avatar: '/static/images/avatar/2.jpg' }],
+      'This intricately designed slider features a double push mechanism, delivering a unique tactile feedback for enthusiasts.',
+    authors: [{ name: 'Titanium / Stainless Steel​', avatar: '/static/images/avatar/2.jpg' }],
   },
   {
-    tag: 'Design',
-    title: 'Designing for the future: trends and insights',
+    tag: 'Spinner',
+    title: 'Lautie CARNIVAL Roulette Wheel Desk Fidget Spinner',
     description:
-      'Stay ahead of the curve with the latest design trends and insights. Our design team shares their expertise on creating intuitive and visually stunning user experiences.',
-    authors: [{ name: 'Kate Morrison', avatar: '/static/images/avatar/7.jpg' }],
+      'A luxurious desk spinner that mimics a roulette wheel, combining elegance with mesmerizing spin dynamics.',
+    authors: [{ name: 'Cupronickel + Brass / Zirconium + Stainless Steel​', avatar: '/static/images/avatar/7.jpg' }],
   },
   {
-    tag: 'Company',
-    title: "Our company's journey: milestones and achievements",
+    tag: 'Haptic Coin',
+    title: "Metal Toys Dz Top-C Mechanical Haptic Coin",
     description:
-      "Take a look at our company's journey and the milestones we've achieved along the way. From humble beginnings to industry leader, discover our story of growth and success.",
-    authors: [{ name: 'Cindy Baker', avatar: '/static/images/avatar/3.jpg' }],
+      "A compact haptic coin offering a satisfying click with each press, designed for discreet fidgeting.",
+    authors: [{ name: 'Stainless Steel / Brass / Copper / Cupronickel', avatar: '/static/images/avatar/3.jpg' }],
   },
 ];
 
