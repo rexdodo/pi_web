@@ -2,6 +2,19 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>hhttp://www.fidgetworld-edc.world</loc>
+    <lastmod>2025-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.fidgetworld-edc.world/popular-edcs</loc>
+    <lastmod>2025-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.fidgetworld-edc.world/shopping</loc>
+    <lastmod>2025-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
