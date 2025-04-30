@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.21ccf6ad.js",
+    "main.js": "/static/js/main.ce188887.js",
     "static/media/blogimg2.png": "/static/media/blogimg2.7650e8de9d1367929ce4.png",
     "static/media/icon_edcworld.jpg": "/static/media/icon_edcworld.065f7008c9416a38f124.jpg",
     "static/media/blogimg3.png": "/static/media/blogimg3.18b3ebcc84ec9a9ea6f3.png",
@@ -10,9 +10,9 @@
     "static/media/blogimg4.png": "/static/media/blogimg4.c625405c1859d4b6dd60.png",
     "static/media/edcimgHomeintro2_extended.jpg": "/static/media/edcimgHomeintro2_extended.80f160b606029453bfad.jpg",
     "index.html": "/index.html",
-    "main.21ccf6ad.js.map": "/static/js/main.21ccf6ad.js.map"
+    "main.ce188887.js.map": "/static/js/main.ce188887.js.map"
   },
   "entrypoints": [
-    "static/js/main.21ccf6ad.js"
+    "static/js/main.ce188887.js"
   ]
 }
