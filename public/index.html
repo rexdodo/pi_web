@@ -4,25 +4,52 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fidget World EDC - A good place to explore the Fidget toy, such as Slider and Fidget Spinner</title>
+
+    <!-- Title & Description for SEO -->
+    <title>Fidget World EDC | Fidget Toys, EDC Gear & Everyday Carry Essentials</title>
+    <meta name="description" content="Fidget World EDC specializes in Fidget toys and EDC gear like spinners and sliders. Explore the most popular Fidget, Fidget toy, Fidget world, EDCs, Everyday Carry essentials and comprehensive shopping guides." />
+    <meta name="keywords" content="Fidget, Fidget toy, Fidget world, EDC, EDCs, Everyday Carry, Every Day Carry" />
+    <link rel="canonical" href="https://www.fidgetworld-edc.world/" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Fidget World EDC | Fidget Toys & Everyday Carry Essentials" />
+    <meta property="og:description" content="Browse top Fidget toys and EDC gear, including spinners, sliders, and more at Fidget World EDC." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.fidgetworld-edc.world/" />
+    <meta property="og:image" content="https://www.fidgetworld-edc.world/og-image.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fidget World EDC | Fidget Toys & Everyday Carry Essentials" />
+    <meta name="twitter:description" content="Discover the best Fidget toys and EDC gear – from sliders and spinners to other popular products at Fidget World EDC." />
+    <meta name="twitter:image" content="https://www.fidgetworld-edc.world/og-image.png" />
+
     <base href="%PUBLIC_URL%/">
     <link rel="icon" href="%PUBLIC_URL%/icon_edcworld.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet" />
-    <!-- Open Graph -->
-    <meta property="og:title" content="Fidget World EDC - A good place to explore the Fidget toy, such as Slider and Fidget Spinner" />
-    <meta property="og:description" content="Display Figet Toy(EDC) information, price data and shopping methods. You can find everthing about Fidget toy, like Slider and Fidget Spinner, at here." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.fidgetworld-edc.world" />
 
-    <meta name="twitter:card" content="Fidget Toy(EDC)" />
-    <meta name="twitter:title" content="Fidget World EDC - A good place to explore the Fidget toy, such as Slider and Fidget Spinner" />
-    <meta name="twitter:description" content="Display Figet Toy(EDC) information, price data and shopping methods. You can find everthing about Fidget toy, like Slider and Fidget Spinner, at here." />
-
+    <!-- Structured Data for Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Fidget World EDC",
+      "url": "https://www.fidgetworld-edc.world/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.fidgetworld-edc.world/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
 </head>
 
 <body>
+    <!-- Fallback content for bots and non-JS environments -->
+    <noscript>
+        <h1>Fidget World EDC</h1>
+        <p>Welcome to Fidget World EDC! Here you can find popular content and product showcases related to Fidget, Fidget toy, Fidget world, EDC, EDCs, Everyday Carry, and Every Day Carry.</p>
+    </noscript>
+
     <div id="root"></div>
     <!-- React will mount into the #root element -->
 </body>
