@@ -2,8 +2,11 @@
 import {Container, Stack, Typography } from '@mui/material';
 import React from 'react';
 import BuildIcon from '@mui/icons-material/Build';
+import Navigator from '../components/Navigator';
 
 const Shopping = () => (
+  <>
+  <Navigator />
   <Container
     maxWidth={false}
     disableGutters
@@ -46,6 +49,7 @@ const Shopping = () => (
       </Typography>
     </Stack>
   </Container>
+  </>
 );
 
 export default Shopping;

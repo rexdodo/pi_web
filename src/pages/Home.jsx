@@ -2,8 +2,11 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Hero from './Hero';
 import Typography from '@mui/material/Typography';
+import Navigator from '../components/Navigator'
 
 const Home = () => (
+  <>
+  <Navigator />
   <Box
     sx={{
       backgroundColor: '#000',
@@ -128,6 +131,7 @@ const Home = () => (
       </Box>
     </Box>
   </Box>
+  </>
 );
 
 export default Home;
