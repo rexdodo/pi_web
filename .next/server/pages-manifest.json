@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/popular-edcs": "pages/popular-edcs.js",
-  "/shopping": "pages/shopping.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/popular-edcs": "pages/popular-edcs.js"
 }
