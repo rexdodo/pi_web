@@ -1,35 +1,28 @@
 {
+  "name": "fidget-world-edc",
+  "version": "1.0.0",
+  "private": true,
   "homepage": "https://www.fidgetworld-edc.world",
-  "devDependencies": {
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-react": "^7.37.5",
-    "gh-pages": "^6.3.0",
-    "react-snap": "^1.23.0"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "reactSnap": {
-    "source": "build",
-    "include": [
-      "/"
-    ]
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^7.0.2",
     "@mui/material": "^7.0.2",
-    "markdown-to-jsx": "^7.7.6",
+    "next": "^15.3.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-router-dom": "^7.5.2",
-    "react-scripts": "^5.0.1"
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-next": "13.4.8",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-react": "^7.37.5"
   },
   "browserslist": {
     "production": [

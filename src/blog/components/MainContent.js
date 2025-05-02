@@ -1,32 +1,20 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-// import Avatar from '@mui/material/Avatar';
-// import AvatarGroup from '@mui/material/AvatarGroup';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-// import Chip from '@mui/material/Chip';
 import Grid from '@mui/material/Grid';
-// import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import FormControl from '@mui/material/FormControl';
 import InputAdornment from '@mui/material/InputAdornment';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import { styled } from '@mui/material/styles';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
-// import RssFeedRoundedIcon from '@mui/icons-material/RssFeedRounded';
-
-import motdragon from '../blogImages/blogimg1.png'
-import yedcPigCoin from '../blogImages/blogimg2.png'
-import breaker from '../blogImages/blogimg3.png'
-import masterSword from '../blogImages/blogimg4.png'
-import ringSpinner from '../blogImages/blogimg5.png'
-import ringSpinner2 from '../blogImages/blogimg6.png'
 
 const cardData = [
   {
-    img: motdragon,
+    img: "/assets/blogImages/blogimg1.png",
     tag: 'Fidget Slider',
     title: 'MOT Titanium Dragon Groove Fidget Slider',
     description:
@@ -37,7 +25,7 @@ const cardData = [
     ],
   },
   {
-    img: yedcPigCoin,
+    img: "/assets/blogImages/blogimg2.png",
     tag: 'Pig Coin',
     title: 'YEDC Pig Coin Haptic Coin',
     description:
@@ -45,7 +33,7 @@ const cardData = [
     authors: [{ name: 'Stainless Steel / Zirconium (Shell)', avatar: '/static/images/avatar/6.jpg' }],
   },
   {
-    img: breaker,
+    img: "/assets/blogImages/blogimg3.png",
     tag: 'Howitzer',
     title: 'Wanwu BREAKER Howitzer',
     description:
@@ -53,7 +41,7 @@ const cardData = [
     authors: [{ name: 'Titanium + Brass', avatar: '/static/images/avatar/7.jpg' }],
   },
   {
-    img: masterSword,
+    img: "/assets/blogImages/blogimg4.png",
     tag: 'Fidget Slider',
     title: "ACEdc MASTER SWORD Fidget Slider",
     description:
@@ -66,7 +54,7 @@ const cardData = [
     ],
   },
   {
-    img: ringSpinner,
+    img: "/assets/blogImages/blogimg5.png",
     tag: 'Ring Spinner',
     title: 'Lautie MECHANIC-THORNS Ratchet Ring Spinner',
     description:
@@ -77,7 +65,7 @@ const cardData = [
     ],
   },
   {
-    img: ringSpinner2,
+    img: "/assets/blogImages/blogimg6.png",
     tag: 'Ring Spinner',
     title: 'Lautie MECHANIC-A Ratchet Ring Spinner',
     description:

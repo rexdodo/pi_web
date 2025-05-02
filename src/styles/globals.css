@@ -1,0 +1,46 @@
+/* src/styles/globals.css */
+
+/* 1. Reset some defaults */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+/* 2. Root variables */
+:root {
+  --font-base: 'Montserrat', sans-serif;
+  --color-background: #000000;
+  --color-text: #ffffff;
+}
+
+/* 3. Base styles */
+body {
+  font-family: var(--font-base);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+/* 4. Link defaults */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 5. Utility classes */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
