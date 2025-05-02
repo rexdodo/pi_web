@@ -1,0 +1,19 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Fidget World Content",
+    "name_for_model": "fidget_world",
+    "description_for_human": "Fetch structured page content from Fidget World",
+    "description_for_model": "Plugin for retrieving Fidget World page data (slug → JSON).",
+    "auth": {
+      "type": "none"
+    },
+    "api": {
+      "type": "openapi",
+      "url": "https://www.fidgetworld-edc.world/openapi.yaml",
+      "is_user_authenticated": false
+    },
+    "logo_url": "https://yourdomain.com/assets/icons/icon_edcworld.jpg",
+    "contact_email": "you@yourdomain.com",
+    "legal_info_url": "https://www.fidgetworld-edc.world/privacy"
+  }
+  

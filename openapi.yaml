@@ -7,7 +7,7 @@ info:
     so that GPT’s search or any crawler/bot can fetch and index your text content.
 
 servers:
-  - url: https://yourdomain.com
+  - url: https://www.fidgetworld-edc.world/
 
 paths:
   /api/page/{slug}:
