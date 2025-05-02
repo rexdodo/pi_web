@@ -1,0 +1,100 @@
+openapi: 3.0.1
+info:
+  title: Fidget World – Content API
+  version: 1.0.0
+  description: >
+    Provides structured JSON representations of your site’s pages (e.g. the Home page),
+    so that GPT’s search or any crawler/bot can fetch and index your text content.
+
+servers:
+  - url: https://yourdomain.com
+
+paths:
+  /api/page/{slug}:
+    get:
+      summary: Get structured content for a given page
+      parameters:
+        - name: slug
+          in: path
+          description: Unique page identifier, e.g. “home”
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response with page data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Page'
+        '404':
+          description: Page not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+components:
+  schemas:
+    Page:
+      type: object
+      properties:
+        slug:
+          type: string
+          description: Matches the {slug} in the request path
+          example: home
+        title:
+          type: string
+          description: Main title of the page
+          example: Origin of EDC
+        hero:
+          type: object
+          description: Content for the top “Hero” section
+          properties:
+            heading:
+              type: string
+              example: Welcome to Fidget World - EDC
+            subheading:
+              type: string
+              example: EDC is a popular trend that emerged in China...
+            backgroundImageUrl:
+              type: string
+              description: URL path to the hero background image
+              example: /assets/images/edcimgHomeintro2_extended.jpg
+        sections:
+          type: array
+          description: The main content sections, matching the two `<Box>` blocks in Home.jsx
+          items:
+            $ref: '#/components/schemas/Section'
+    Section:
+      type: object
+      properties:
+        heading:
+          type: string
+          description: Section heading (e.g. “Origin of EDC”)
+        body:
+          type: array
+          description: An array of paragraph strings
+          items:
+            type: string
+        links:
+          type: array
+          description: Any external links referenced within this section
+          items:
+            $ref: '#/components/schemas/Link'
+    Link:
+      type: object
+      properties:
+        text:
+          type: string
+          example: Everyday Carry (Wikipedia)
+        url:
+          type: string
+          format: uri
+          example: https://en.wikipedia.org/wiki/Everyday_carry
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
+          example: Page not found
